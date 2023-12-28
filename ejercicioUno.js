@@ -23,8 +23,8 @@ console.log("La cantidad de alumnos es: " + alumnos.length)
 
 let promedio = 0
 
-for (let index = 0; index < alumnos.length; index++) {
-  promedio = promedio + alumnos[index].edad
+for (const alumno of alumnos) {
+  promedio = promedio + alumno.edad
 }
 
 console.log(
