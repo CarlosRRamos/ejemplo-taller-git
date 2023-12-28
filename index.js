@@ -53,5 +53,5 @@ function nivel(edadAlumno) {
 }
 
 const edadAlumno = 19;
-
+console.log("Soy un modificacion")
 console.log(`De a acuerdo a su edad el sistema estipula que su institucion educativa sera: ${nivel(edadAlumno)}`)

@@ -19,7 +19,7 @@ const alumnos = [
     },
 ]
 
-console.log("La cantidad de alumnos es: "+alumnos.length)
+console.log("La cantidad de alumnos es: " + alumnos.length)
 
 let promedio = 0;
 for (let index = 0; index < alumnos.length; index++) {
