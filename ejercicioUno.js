@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 const alumnos = [
   {
@@ -17,16 +17,16 @@ const alumnos = [
     nombre: "Maria",
     edad: 18,
   },
-]
+];
 
-console.log("La cantidad de alumnos es: " + alumnos.length)
+console.log("La cantidad de alumnos es: " + alumnos.length);
 
-let promedio = 0
+let promedio = 0;
 
 for (const alumno of alumnos) {
-  promedio = promedio + alumno.edad
+  promedio = promedio + alumno.edad;
 }
 
 console.log(
   "El promedio de edad de los alumnos es de: " + promedio / alumnos.length
-)
+);
